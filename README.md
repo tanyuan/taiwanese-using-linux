@@ -1,4 +1,4 @@
-# Traditional Chinese Font Configuration - 繁體中文字型設定
+# 繁體中文字型設定
 
 Font configuration for my [Arch Linux](https://www.archlinux.org/) machine.
 
@@ -18,13 +18,13 @@ Screenshot of Nautilus: Sans-serif font Cantarell with Traditional Chinese font 
 
 桌面介面主要字體：
 
-1. [Cantarell](https://github.com/GNOME/cantarell-fonts)
+1. **[Cantarell](https://github.com/GNOME/cantarell-fonts)**
 
   GNOME 預設字型。 
 
   Arch Linux Package: `cantarell-fonts`
 
-2. [Source Han Sans TC Medium (思源黑體)](https://github.com/adobe-fonts/source-han-sans)
+2. **[Source Han Sans TC Medium (思源黑體)](https://github.com/adobe-fonts/source-han-sans)**
 
   由 Adobe 與 Google 開發的一套中文、日文、韓文(CJK)黑體字型，包含七種粗細(Weight)。
   
@@ -36,11 +36,11 @@ Screenshot of Nautilus: Sans-serif font Cantarell with Traditional Chinese font 
 
 PDF、網頁中可能會出現：
 
-1. [Linux Libertine](http://www.linuxlibertine.org/)
+1. **[Linux Libertine](http://www.linuxlibertine.org/)**
 
   Arch Linux Package: `ttf-linux-libertine`
 
-2. Source Han Sans TC Regular (思源黑體)
+2. **Source Han Sans TC Regular (思源黑體)**
 
   尚未找到優美適合的中文明體字型，先以較細的 Regular 思源黑體代替。
 
@@ -48,13 +48,13 @@ PDF、網頁中可能會出現：
 
 終端機所使用：
 
-1. [Source Code Pro](https://github.com/adobe-fonts/source-code-pro)
+1. **[Source Code Pro](https://github.com/adobe-fonts/source-code-pro)**
 
   同樣是 Adobe 開發的等寬字型，中性而優美，字母與數字易於辨認，適合長久閱讀，不易看錯。
 
   Arch Linux Package: `adobe-source-code-pro-fonts`
 
-2. Source Han Sans TC Medium (思源黑體)
+2. **Source Han Sans TC Medium (思源黑體)**
 
 ## How to use the configuration
 
