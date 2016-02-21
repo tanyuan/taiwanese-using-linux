@@ -1,6 +1,6 @@
 # GNU/Linux 中文輸入法
 
-輸入法需要有「輸入法框架」、以及框架底下的「輸入法本身」，才能夠正常輸入。以下以輸入法框架 fcitx 、與輸入法本身新酷音(chewing)、中州韻(rime)為例。
+輸入法需要有「輸入法框架」、以及框架底下的「輸入法本身」，才能夠正常輸入。以下以輸入法框架 **fcitx** 、與輸入法本身**新酷音(chewing)**、**中州韻(rime)**為例。
 
 ## 測試環境
 
@@ -19,7 +19,7 @@
 
         sudo pacman -Rs ibus
 
-    安裝 `fcitx` 本身，以及其支援不同圖形介面程式的 `fcitx-im` 與圖形介面的設定工具 `fcitx-config`:
+    安裝 `fcitx` 本身，以及其支援不同圖形介面程式的 `fcitx-im` 與圖形介面的設定工具 `fcitx-configtool`:
 
         sudo pacman -S fcitx fcitx-im fcitx-configtool
 
@@ -46,7 +46,7 @@ export XMODIFIERS=@im=fcitx
 
 ### 安裝
 
-        sudo pacman -S fcitx-chewing
+    sudo pacman -S fcitx-chewing
 
 ### 設定
 
@@ -64,7 +64,7 @@ export XMODIFIERS=@im=fcitx
 
 ### 安裝
 
-        sudo pacman -S fcitx-rime
+    sudo pacman -S fcitx-rime
 
 ### 設定
 
