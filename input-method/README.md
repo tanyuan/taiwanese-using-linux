@@ -1,6 +1,6 @@
-# GNU/Linux 中文輸入法
+# GNU/Linux 中文輸入法 (fcitx)
 
-輸入法需要有「輸入法框架」、以及框架底下的「輸入法本身」，才能夠正常輸入。以下以輸入法框架 **fcitx** 、與輸入法本身**新酷音(chewing)**、**中州韻(rime)**為例。
+輸入法需要有「輸入法框架」、以及框架底下的「輸入法本身」，才能夠正常輸入。以下以輸入法框架 **fcitx** 、與輸入法本身 **新酷音(chewing)** 、 **中州韻(rime)** 為例。
 
 ## 測試環境
 
@@ -9,7 +9,7 @@
 
 ## 輸入法框架 fcitx
 
-若是其他桌面環境，或更多資訊請見 [Fcitx - ArchWiki](https://wiki.archlinux.org/index.php/Fcitx)。
+若是其他桌面環境，或更多資訊請見 [ArchWiki ](https://wiki.archlinux.org/index.php/Fcitx)。
 
 ### 安裝 fcitx
 
@@ -27,7 +27,7 @@
 
         gsettings set org.gnome.settings-daemon.plugins.keyboard active false
 
-3. 在 GNOME 上方的工具列顯示輸入法狀態與選單，安裝擴充套件 [Input Method Panel - GNOME Shell Extensions](https://extensions.gnome.org/extension/261/kimpanel/) 。
+3. 在 GNOME 上方的工具列顯示輸入法狀態與選單，安裝擴充套件 [Input Method Panel](https://extensions.gnome.org/extension/261/kimpanel/) 。
 
 其他桌面環境可能需新增設定至 `~/.xinitrc` ：
 
@@ -40,7 +40,7 @@ export XMODIFIERS=@im=fcitx
 ### 設定 fcitx
 
 * 我將PC鍵盤空白鍵旁的「右鍵選單」設定成切換輸入法，非常方便。
-* Global Config > Show Advance Option > Appearance > Do not show input window if there is only preedit string
+* fcitx 設定沒事別跳出選字框： 右上角工具列 fcitx 鍵盤圖示 > Global Config > Show Advance Option > Appearance > Do not show input window if there is only preedit string
 
 ## 新酷音輸入法 chewing
 
@@ -50,10 +50,10 @@ export XMODIFIERS=@im=fcitx
 
 ### 設定
 
-若想問換掉 GNOME 工具列圖示，例如[我用的](icons/fcitx-chewing.png)，取代以下檔案：
+若想問換掉 GNOME 工具列圖示，例如[我用的](icons/fcitx-chewing.svg)，新增以下檔案：
 
 ```
-/usr/share/icons/hicolor/48x48/apps/fcitx-chewing.png
+~/.local/share/icons/hicolor/scalable/status/fcitx-chewing.svg
 ```
 
 ## 中州韻輸入法 rime
@@ -77,7 +77,7 @@ export XMODIFIERS=@im=fcitx
 若想要替換 GNOME 工具列圖示，例如[我用的](icons/fcitx-rime.svg)，取代以下檔案：
 
 ```
-/usr/share/icons/hicolor/scalable/status/fcitx-rime.svg
+~/.local/share/icons/hicolor/scalable/status/fcitx-rime.svg
 ```
 
 如果輸入法顯示的不是台灣的繁體中文，請替換成以下設定（以注音輸入法為例）：
