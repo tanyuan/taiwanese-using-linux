@@ -38,9 +38,7 @@ Arch Linux Package: `noto-fonts-cjk`
 
   Arch Linux Package: `cantarell-fonts`
 
-2. Noto Sans CJK TC Medium
-
-  選用中粗的 Medium 當作一般桌面介面的字型，搭配同樣較粗寬版的 Cantarell ，易於辨識。
+2. Noto Sans CJK TC
 
 ### Serif (襯線/明體)
 
@@ -62,7 +60,7 @@ PDF、網頁中可能會出現：
 
   Arch Linux Package: `adobe-source-code-pro-fonts`
 
-2. Noto Sans CJK TC Medium
+2. Noto Sans CJK TC
 
 ## 參考
 
